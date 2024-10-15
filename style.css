@@ -834,6 +834,9 @@ a {
         height: 360px;
         margin: 45px;
     }
+    .gallery-list {
+        padding: 40px;
+    }
 }
 @media(max-width: 400px){
     input::placeholder{
