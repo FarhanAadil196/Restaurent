@@ -265,7 +265,7 @@ input,select{
     height: 45px;
     padding: 14px;
     color: #E2DAD6;
-    width: 100%;
+    
 }
 input,select:active{
     border-color: black;
