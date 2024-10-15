@@ -109,7 +109,7 @@ nav {
 }
 .parent-1{
     background-image: url(media/shrimp\ \(2\).jpg);
-    background-attachment: fixed;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,7 +123,7 @@ nav {
     flex-wrap: wrap;
     text-align: center;
     background-image: url(media/pexels-ivan-samkov-8951488.jpg);
-    background-attachment: fixed;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -138,7 +138,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     background: url(media/pexels-szymon-shields-1503561-18859067.jpg);
-    background-attachment: fixed;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -147,7 +147,7 @@ nav {
 }
 .parent-4{
     background: url(media/pexels-sarah-chai-7262929.jpg);
-    background-attachment: fixed;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,7 +155,7 @@ nav {
 }
 .parent-5{
     background-image: url(media/kitchen-5055083_1920.jpg);
-    background-attachment: fixed;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -242,6 +242,7 @@ nav {
     text-align: center;
     padding: 60px 30px;
     border-radius: 20px;
+    width: 100%;
 }
 .form-text{
     text-align: center;
@@ -264,6 +265,7 @@ input,select{
     height: 45px;
     padding: 14px;
     color: #E2DAD6;
+    width: 100%;
 }
 input,select:active{
     border-color: black;
@@ -495,7 +497,7 @@ option::selection{
     .parent-6{
         /* display: flex;  */
         background-image: url(media/2.png);
-        background-attachment: fixed;
+        ;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -561,7 +563,7 @@ option::selection{
 
 .parent-7 {
     background-image: url(media/pexels-huuhuynh-19775602.jpg);
-    background-attachment: fixed;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

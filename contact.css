@@ -118,7 +118,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     background: url(media/pexels-szymon-shields-1503561-18859067.jpg);
-    background-attachment: fixed;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -135,7 +135,7 @@ nav {
 .parent-6{
     /* display: flex;  */
     background-image: url(media/2.png);
-    background-attachment: fixed;
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
