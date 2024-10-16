@@ -229,7 +229,7 @@ nav {
 } */
 .child-1,.child-2{
     flex: 1 1 300px;
-    margin: 10px; 
+    /* margin: 10px;  */
     /* background-color: lightgrey; */
     height: auto;
     z-index: 3;
@@ -575,7 +575,7 @@ option::selection{
     width: 100%;
 }
 .gallery-list{
-    columns: 325px;
+    columns: 400px;
     padding-right: 15px;
     padding-left: 5px;
 }
@@ -585,9 +585,7 @@ img{
     margin: 5px;
     transition: all .5s ease;
 }
-img:hover{
-    transform: scale(105%);
-}
+
 
 
 .footer {
@@ -625,30 +623,7 @@ img:hover{
     list-style: none;
 }
 
-input{
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    color: black;
-    }
 
-    .form-btn{
-        border: none;
-        background-color: transparent;
-        border: 2px solid;
-        border-radius: 30px ;
-        margin: 10px;
-        height: 45px;
-        padding: 10px;
-        background-color: #E2DAD6;
-        color: #000000cc;
-        transition: all 0.5s ease;
-    }
-    .form-btn:hover{
-      background-color: #000000cc;
-      color: #E2DAD6;
-    }
 .footer-section ul li {
     margin-bottom: 5px;
 }
@@ -665,7 +640,7 @@ a {
 
 .footer-bottom {
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
     /* background-color: #222; */
     position: relative;
 }
@@ -818,7 +793,7 @@ a {
     .footer-content {
         flex-direction: column;
         text-align: center;
-        padding: 35px;
+        /* padding: 35px; */
     }
     .contact input,textarea::placeholder{
         /* color: #000000; */
