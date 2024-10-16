@@ -9,9 +9,9 @@
   font-style: normal;
   scroll-behavior: smooth;
 }
-/* body{
+body {
     overflow-x: hidden;
-} */
+}
 
 header {
     display: flex;
@@ -265,6 +265,9 @@ input,select{
     height: 45px;
     padding: 14px;
     color: #E2DAD6;
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
     
 }
 input,select:active{
@@ -535,6 +538,9 @@ option::selection{
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px; /* Set a max width for larger screens */
+    margin: 0 auto; /* Center the form */
 }
 .contact input::placeholder{
     color: white;
@@ -777,6 +783,13 @@ a {
     .parent-6 .child {
         flex-basis: 100%; /* Stack the children on top of each other on smaller screens */
     }
+    .contact-form {
+        width: 100%;
+        max-width: 100%; /* Ensure the form doesn't go beyond 100% of the viewport */
+        box-sizing: border-box; /* Makes sure padding is included within the width */
+        padding: 20px; /* Adjust padding as necessary */
+    }
+    
     .contact input, .contact textarea {
         width: 100%; /* Make sure inputs and text areas take full width */
         margin: 0px;
@@ -815,6 +828,22 @@ a {
         padding: 40px;
     }
 }
+@media (max-width: 600px) {
+    .contact-form {
+        width: 90%; /* Reduce the width for smaller screens */
+        margin: 0 auto; /* Center the form on the page */
+    }
+
+    .form-input {
+        width: 100%; /* Make input fields fill the width */
+        margin-bottom: 10px; /* Add spacing between form elements */
+    }
+
+    .form button {
+        width: 100%; /* Make button full width on mobile */
+    }
+}
+
 @media(max-width: 400px){
     input::placeholder{
         font-size: 10px;
