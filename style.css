@@ -109,7 +109,7 @@ nav {
 }
 .parent-1{
     background-image: url(media/shrimp\ \(2\).jpg);
-    ;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,7 +123,7 @@ nav {
     flex-wrap: wrap;
     text-align: center;
     background-image: url(media/pexels-ivan-samkov-8951488.jpg);
-    ;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -138,7 +138,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     background: url(media/pexels-szymon-shields-1503561-18859067.jpg);
-    ;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -147,7 +147,7 @@ nav {
 }
 .parent-4{
     background: url(media/pexels-sarah-chai-7262929.jpg);
-    ;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,7 +155,7 @@ nav {
 }
 .parent-5{
     background-image: url(media/kitchen-5055083_1920.jpg);
-    ;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -569,7 +569,7 @@ option::selection{
 
 .parent-7 {
     background-image: url(media/pexels-huuhuynh-19775602.jpg);
-    ;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -830,17 +830,16 @@ a {
 }
 @media (max-width: 600px) {
     .contact-form {
-        width: 90%; /* Reduce the width for smaller screens */
-        margin: 0 auto; /* Center the form on the page */
+        width: 90%; 
     }
 
     .form-input {
-        width: 100%; /* Make input fields fill the width */
-        margin-bottom: 10px; /* Add spacing between form elements */
+        width: 100%; 
+        margin-bottom: 10px;
     }
 
     .form button {
-        width: 100%; /* Make button full width on mobile */
+        width: 100%;
     }
 }
 
